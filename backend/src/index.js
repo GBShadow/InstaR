@@ -9,6 +9,6 @@ mongoose.connect(
   { useNewUrlParser: true }
 );
 
-app.use(require('./routes'));
+app.use(require("./routes"));
 
 app.listen(3333);
