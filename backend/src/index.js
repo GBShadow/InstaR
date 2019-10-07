@@ -9,14 +9,14 @@ const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
 mongoose.connect(
-  "mongodb+srv://gbshadow:Shadow.666@cluster0-gpjn6.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://gbshadow:Shadow.666@cluster0-gpjn6.mongodb.net/admin?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
 
 app.use((req, res, next) => {
-  req.ioI = io;
+  req.io = io;
   
-  next();
+  next(); 
 });
 
 app.use(cors());
