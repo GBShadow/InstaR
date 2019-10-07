@@ -36,7 +36,6 @@ class New extends Component {
         this.setState({ [e.target.name]: e.target.value })
     }
 
-
     render() {
         return (
             <form id="new-post" onSubmit={this.handleSubmit}>
