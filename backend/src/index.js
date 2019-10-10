@@ -9,8 +9,8 @@ const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
 mongoose.connect(
-  "mongodb+srv://gbshadow:Shadow.666@cluster0-gpjn6.mongodb.net/admin?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
+  "mongodb+srv://gbs:Shadow.666@cluster0-buv9o.mongodb.net/test?retryWrites=true&w=majority",
+  { useUnifiedTopology: true, useNewUrlParser: true }
 );
 
 app.use((req, res, next) => {
