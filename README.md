@@ -1,6 +1,6 @@
 # InstaR
 
-Este app e um clone do Instagram, utilizando:
+## Este app e um clone do Instagram, utilizando:
 
 -NodeJs para o Back-end,
 -ReactJs para Web,
@@ -9,29 +9,29 @@ Este app e um clone do Instagram, utilizando:
 
 # Como usar
 
-##Apos clonar o repositorio e nescessario ter o NodeJs instalado, 
+## Apos clonar o repositorio e nescessario ter o NodeJs instalado, 
 e baixar as seguites dependencias para o Back-End:
 
--nodemon(Opcional caso nao queira usar e nescessario retirar a dependencia e o script do package.json),
--express
--cors
--mongoose
--mongoose-paginate
--multer
--sharp
--socket.io
+* nodemon(Opcional caso nao queira usar e nescessario retirar a dependencia e o script do package.json),
+* express
+* cors
+* mongoose
+* mongoose-paginate
+* multer
+* sharp
+* socket.io
 
-##Para o Front-End Web:
+## Para o Front-End Web:
 
--socket.io-client
--axios
--react-router-dom
+* socket.io-client
+* axios
+* react-router-dom
 
-##Para o Front-End Mobile
+## Para o Front-End Mobile
 
--axios
--react-native-gesture-handler
--react-native-image-picker
--react-navigation
--react-navigation-stack
--socket.io-client
+* axios
+* react-native-gesture-handler
+* react-native-image-picker
+* react-navigation
+* react-navigation-stack
+* socket.io-client
