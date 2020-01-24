@@ -2,9 +2,9 @@
 
 ## Este app e um clone do Instagram, utilizando:
 
--NodeJs para o Back-end,
--ReactJs para Web,
--React Native para o Mobile
+* NodeJs para o Back-end,
+* ReactJs para Web,
+* React Native para o Mobile
 
 
 # Como usar
